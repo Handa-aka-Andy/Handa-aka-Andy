@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+
+}
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    border-bottom:5px solid gray;
+}
+nav h1{
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    
+}
+nav .toppage{
+    margin-top: auto;
+    margin-left: 200px;
+}
+nav .toppage    a{
+    text-decoration: none;
+    color: black;
+    margin-right: 15px;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    background: url('images/tesla-chargeur.jpg');
+    background: cover;
+    color: brown;
+    padding: 60px;
+    margin-bottom: 20px;
+
+
+    
+}
+header h1{
+    font-size: 40px;
+    margin-top: 50px;
+}
+.principale{
+    
+}
+.principale .content .chargeur .right img{
+    height: 300px;
+    width: 400px;
+}
+.principale .content .chargeur{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.principale .content .chargeur .left{
+    flex: 30%;
+    padding: 20px;
+    background-color: gray;
+    color: black;
+}
+.principale .content .chargeur .right{
+    flex: 70%;
+}
