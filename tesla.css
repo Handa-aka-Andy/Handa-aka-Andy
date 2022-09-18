@@ -43,6 +43,8 @@ header h1{
     margin-top: 50px;
 }
 .principale{
+    display: flex;
+
     
 }
 .principale .content .chargeur .right img{
@@ -63,3 +65,11 @@ header h1{
 .principale .content .chargeur .right{
     flex: 70%;
 }
+footer{
+    margin-top: 30px;
+    border-top: 5px solid gray;
+    background-color: gray;
+}
+
+
+
